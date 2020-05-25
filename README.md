@@ -26,36 +26,46 @@ In meeting the minimum viable product (MVP) specifications listed below, you sho
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
 
-Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead.
+Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the DOM?
 
+The DOM is the document object model. It represents the page so thgat programs can change the document structure, style and content. The DOM represents the document as nodes and objects. 
+
 2. What is an event?
+
+DOM events are sent to notify code of interesting things that have taken place. Eah event is represented by an object which is based on the event interface. Examples of events are error, abort, load, beforeunload, unload, click, dblclick, etc.
 
 3. What is an event listener?
 
+In Javascript we can add an event listener to an element which tells the DOM to do something upon the event that happens. For example with click, you could click on an element and trigger another element to show/hide, change text, etc.
+
 4. Why would we convert a NodeList into an Array?
+
+The main benefit to converting a NodeList into an array is that you can then have access to all of the array methods which give you more power over how you can go through the code.
 
 5. What is a component?
 
+A component is a small, typically re-usable set of code. It's used when you want to set up data into very similar styles such as cards or listings. This helps us keep our code DRY by not having to repeat code. It makes developing a project much quicker.
+
 ### Git Set up
 
-* [ ] Fork the project into your GitHub user account
-* [ ] Clone the forked project into a directory on your machine
-* [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-* [ ] You are now ready to build this project with your preferred IDE
+* [x] Fork the project into your GitHub user account
+* [x] Clone the forked project into a directory on your machine
+* [x] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+* [x] You are now ready to build this project with your preferred IDE
 
 ## Minimum Viable Product
 
 Your finished project must include all of the following requirements:
 
-* [ ] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be filled in. DO NOT add any code to the HTML file itself.
+* [x] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be filled in. DO NOT add any code to the HTML file itself.
 
-* [ ] Following the instructions in the `Header/index.js` file, create the Header component.
+* [x] Following the instructions in the `Header/index.js` file, create the Header component. 
 
-* [ ] Following the instructions in the `Tabs/index.js` file, create individual Tabs components.
+* [x] Following the instructions in the `Tabs/index.js` file, create individual Tabs components.
 
-* [ ] Following the instructions in the `Cards/index.js` file, create individual Cards components.
+* [x] Following the instructions in the `Cards/index.js` file, create individual Cards components.
 
 ## Stretch Problems
 
